@@ -1,0 +1,33 @@
+<!-- form Page for user Info -->
+<section class="main_heading my-5">
+	<div class="text-center py-5">
+		<h3 class="display-4">Submit Your Info</h3>
+		<hr class="w-25 mx-auto">
+	</div>
+		<div class="w-25 m-auto">
+			<form action="userinfo.php" method="POST">
+				<div class="form-group">
+					<lable>First Name</lable>
+					<input type="text" name="firstname" autocomplete="off" class="form-control">
+				</div>
+				<div class="form-group">
+					<lable>Last Name</lable>
+					<input type="text" name="lastname" autocomplete="off" class="form-control">
+				</div>
+				<div class="form-group">
+					<lable>Email Id</lable>
+					<input type="text" name="email" autocomplete="off" class="form-control">
+				</div>
+				<div class="form-group">
+					<lable>Mobile No</lable>
+					<input type="text" name="mobile" autocomplete="off" class="form-control">
+				</div>
+				<div class="form-group">
+					<lable>Comment</lable>
+					<textarea class="form-control" name="comment">
+					</textarea>
+				</div>
+				<button type="submit" class="btn btn-success" name="submit" value='register'>Submit</button>
+			</form>
+		</div>
+</section>
